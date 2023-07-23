@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://d0dewqsbxy1q3"]
+
+[ext_resource type="Script" path="res://wfcgen.gd" id="1_ldba5"]
+[ext_resource type="Texture2D" uid="uid://c1c48kauc6a5k" path="res://sheet.png" id="2_myc8w"]
+
+[node name="WFCGen" type="Node2D"]
+script = ExtResource("1_ldba5")
+
+[node name="BG" type="Sprite2D" parent="."]
+modulate = Color(0.807843, 0, 0.247059, 1)
+position = Vector2(66, 68)
+scale = Vector2(100, 100)
+texture = ExtResource("2_myc8w")
+hframes = 5
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(64, 64)
+zoom = Vector2(2, 2)
