@@ -1,5 +1,5 @@
 # WFC Godot
-An attempt at getting a WFC generator working in Godot.
+An attempt at getting a WFC (Wave Function Collapse) generator working in Godot.
 So far it mostly works, there are 3 current issues though:
 
 	1. It does generate with some "gaps", which means all possible options have been removed from
